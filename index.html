@@ -3,6 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <title>Ejemplo de Audio de Fondo</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            font-family: 'Segoe UI', Arial, sans-serif;
+            color: #fff;
+            min-height: 100vh;
+        }
+        .menu {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .menu-container {
+            background: rgba(0,0,0,0.4);
+            padding: 40px 60px;
+            border-radius: 18px;
+            box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+            text-align: center;
+        }
+        .menu-title {
+            font-size: 2.5em;
+            margin-bottom: 24px;
+            letter-spacing: 2px;
+        }
+        .menu-item {
+            display: block;
+            background: #fff;
+            color: #764ba2;
+            padding: 14px 28px;
+            margin: 14px 0;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: background 0.2s, color 0.2s, transform 0.2s;
+        }
+        .menu-item:hover {
+            background: #764ba2;
+            color: #fff;
+            transform: scale(1.05);
+        }
+    </style>
 </head>
 <body>
     <audio src="Duncan Dhu.mp3" autoplay loop></audio>
